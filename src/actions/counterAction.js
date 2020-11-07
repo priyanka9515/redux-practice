@@ -9,8 +9,18 @@ export default function counterAction(count){
         }
       },
       
-    //   {
-    //     type: "DECREMENT",
-    //   }
+    
+    );
+  };
+  export default function counterAction(count){
+    return (
+      {
+        type: "DECREMENT",
+        payload:{
+          count:1
+        }
+      },
+      
+    
     );
   };
